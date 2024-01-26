@@ -1,0 +1,52 @@
+
+======================================= semver  =======================================
+9
+10
+
+99
+100
+
+
+186
+200
+
+
+GTA (software)
+
+MAJOR.MINOR.PATCH
+
+1.0.0
+    no se puede seleccionar al personaje chica
+1.0.1
+    neutral, sin genero definido
+1.1.0
+    nuevo juego con otros personaes y escenarios
+2.0.0
+
+
+Minrcraft
+
+2.0.1
+    Hay que corregir los arboles
+2.0.2
+
+.
+.
+.
+
+3.4.2 
+    Hay que agregar 1 nuevo vestuario al juego
+3.5.0
+    sacar una version no pixealeado
+4.0.0
+
+.
+.
+.
+4.6.9
+    Actualizar los premios porque ya no se quiere que se llamen coins sino fruits aunque van a tener el mismo
+    valor => 4.7.0 
+    Corregir el valor en monedas que tiene cada usuario porque el calculo se esta realizando => 4.6.10
+
+===================================================================================================================================================================================================
+
