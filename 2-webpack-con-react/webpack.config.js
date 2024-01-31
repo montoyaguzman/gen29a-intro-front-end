@@ -1,7 +1,11 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
   //...
+  plugins: [
+    new HtmlWebpackPlugin({ template: 'src/index.html' })
+  ],
   module: {
     rules: [
       {
@@ -11,6 +15,10 @@ module.exports = {
         options: {
             presets: ["@babel/preset-react"] 
         }
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
