@@ -1,3 +1,4 @@
+import React from 'react';
 import './Card.css';
 
 function Card() {
@@ -9,10 +10,17 @@ function Card() {
 
     return (
         // JSX: SINTAXIS ESPECIAL PARA USAR HTML Y JS JUNTOS
-        <div className="container-img">
-            <img src={bulbasaur.url} alt="mi pokemon" />
-        </div>
+        <>
+            {/* <React.Fragment> */}
+            <div className="container-img">
+                <img src={bulbasaur.url} alt="mi pokemon" />
+            </div>
+            <div>
+                Holaaaaaa
+            </div>
+            {/* </React.Fragment> */}
+        </>
     );
 }
 
-export default Card;
+export { Card };
