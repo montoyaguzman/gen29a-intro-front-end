@@ -1,10 +1,14 @@
-import './App.css'
+import './App.css';
+import { ListCard } from './components/ListCard/';
+import { Card } from './components/Card/';
 
 function App() {
 
   return (
     <>
-      <div>app works!</div>
+      <ListCard>
+        <Card />
+      </ListCard>
     </>
   )
 }
