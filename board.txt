@@ -50,3 +50,26 @@ Minrcraft
 
 ===================================================================================================================================================================================================
 
+Martes 6/02/24
+
+Formas de poner estilos en react
+Teoria y repaso de React
+Consumo de API y Scaffold
+Ejercicio de catalogo de entrenadores
+
+
+
+let students = ['cesar', 'montoya'];
+
+// addStudent: juanito banana
+let newStudent = 'juanito banana';
+students.push(newStudent);
+
+INMUTABILIDAD
+
+let studentsAux = [ ...students];
+
+paso por valor y paso por referencia?
+
+studentsAux.push(newStudent);
+students = [ ...studentsAux];
