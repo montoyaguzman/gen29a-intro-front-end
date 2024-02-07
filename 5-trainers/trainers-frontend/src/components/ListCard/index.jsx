@@ -7,7 +7,6 @@ function ListCard({ children }) {
 
     return (
         <>
-            <div>List card works!</div>
             {children}
         </>
     );
