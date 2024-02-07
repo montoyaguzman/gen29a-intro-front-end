@@ -1,9 +1,14 @@
 import './index.css';
 
-function ListCard() {
+function ListCard({ children }) {
+
+    // const children = props.children;
+    // const { children } = props;
+
     return (
         <>
             <div>List card works!</div>
+            {children}
         </>
     );
 }

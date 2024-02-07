@@ -1,9 +1,14 @@
 import './index.css';
 
-function Card() {
+function Card({ name, alias }) {
+
+    // const name = props.name; 
+    // const alias = props.alias;
+    // const { name, alias } = props; // destructing
+
     return (
         <>
-            <div>card works!</div>
+            <div>Mi nombre es: {name} {alias}</div>
         </>
     );
 }

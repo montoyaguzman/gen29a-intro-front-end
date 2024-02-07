@@ -73,3 +73,7 @@ paso por valor y paso por referencia?
 
 studentsAux.push(newStudent);
 students = [ ...studentsAux];
+
+1. pintar las tarjetas desde un array
+2. pintar las tarjetas desde un api
+3. filtrar la info de las tarjetas
