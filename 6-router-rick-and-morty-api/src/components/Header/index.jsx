@@ -1,25 +1,43 @@
+import { NavLink } from "react-router-dom";
 import './header.css';
 
 const Header = () => {
+  const linkIsActive = (isActive) => {
+    return isActive ? 'header-list-link is-active' : 'header-list-link';
+  }
   return (
     <header>
       <nav className="header">
-        <a className="header-logo" href="#">Rick And Morty Api</a>
+        <NavLink 
+            to="/" 
+            className="header-logo">
+                Rick And Morty Api
+        </NavLink>
         <ul className="header-nav-list">
           <li>
-            <a className="header-list-link" href="/">Home</a>
+            <NavLink to="/" className={({isActive})=> linkIsActive(isActive)}>
+                Home
+            </NavLink>
           </li>
           <li>
-            <a className="header-list-link" href="/characters">Characters</a>
+            <NavLink to="/characters" className={({isActive})=> linkIsActive(isActive)}>
+                Characters
+            </NavLink>
           </li>
           <li>
-            <a className="header-list-link" href="/episodes">Episodes</a>
+            <NavLink to="/episodes" className={({isActive})=> linkIsActive(isActive)}>
+                Episodes
+            </NavLink>
           </li>
           <li>
-            <a className="header-list-link" href="/locations">Locations</a>
+            <NavLink to="/locations" className={({isActive})=> linkIsActive(isActive)}>
+                Locations
+            </NavLink>
           </li>
           <li>
-            <a className="header-list-link is-active" href="/about">About</a>
+            <NavLink to="/about" className={({isActive})=> linkIsActive(isActive)}>
+                About
+            </NavLink>
           </li>
         </ul>
       </nav>
